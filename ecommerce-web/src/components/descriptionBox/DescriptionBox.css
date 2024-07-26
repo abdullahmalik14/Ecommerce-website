@@ -1,0 +1,44 @@
+.descriptionbox{
+    margin: 120px 110px;
+
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+
+.descriptionbox-navbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px ;
+    font-weight: 600;
+    width: 140px;
+    height: 60px;
+    border:1px solid #d0d0d0 ;
+}
+ .fade{
+    background: #FBFBFB;
+    color: #555;
+}
+
+.descriptionbox-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 48px;
+    padding-bottom: 70pxpx;
+    border: 1px solid #D0D0D0;
+}
+@media (max-width:1280px) {
+    .descriptionbox{
+        margin: 60px;
+    }
+}
+@media (max-width:800px) {
+    .descriptionbox{
+        margin: 60px 20px;
+    }
+    .descriptionbox-desc{
+        font-size: 12px;
+    }
+}
